@@ -6,3 +6,4 @@ const sequelizeDb = new sequelize_1.Sequelize('list', 'root', 'joseJOAQUIN2225',
     dialect: 'mysql'
 });
 exports.default = sequelizeDb;
+ // nose
