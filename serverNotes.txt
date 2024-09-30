@@ -1,0 +1,21 @@
+CREANDO EL SERVER:
+
+-g se refiere a lo global
+1- Crear el package.json con "npm init -y".
+2- Instalamos nodemon "npm install -g nodemon" permite que el server se refresque automaticamente el 
+   server.
+3- Instalamos typescript "npm i typescript --save-dev" (npx tsc para hacer uso) y (tsc --init crea el 
+   tsconfig.json ). 
+4- tsc --watch para ver los cambios que hace el archivo ts a js.
+5- Instalamos express "npm i express". Es un framework(para Node.js) que nos permitira crear 
+   el API rest(Que es usada para el intercambio de info. de manera segura).  Crea la carpeta node-modules
+   Nos creara el package-lock.json.
+6- Instalamos dotenv, que nos permitira configurar las variables de entorno.
+7- Instalamos course, ya que tendremos en frontend y el backend en puertos distintos.
+8- Instalamos cors, sequelize y MySQL(Ver video de instalacion).
+9- Creamos en src una carpeta models con un archivo Server y laclase characterServer, donde importaremos express.
+
+Pasos relacionados a la clase:
+
+1- Creamos la carpeta models, con el archivo server.ts.
+2- Creamos una clase y la exportamos, al igual que express(importado).
